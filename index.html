@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Nithinn Manickam</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#software-experience">Software-Skills</a></li>
+          <li><a href="#core-experience">Core-Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+  
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Nithinn Manickam</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#software-experience" onclick="toggleMenu()">Software-Skills</a></li>
+          <li><a href="#core-experience" onclick="toggleMenu()">Core-Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/IMG_7D6C75F73CB6-1.jpeg" alt="Nithinn Manickam profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Nithinn Manickam</h1>
+        <p class="section__text__p2">Student</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Nithinn_Manickam_Resume_31-08-2023-21-36-43.pdf')"
+          >
+          Download CV-Software
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Nithinn_Manickam_AC.pdf')"
+          >
+            Download CV-Core
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/chanleeip'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/chanleeip'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/IMG_3991.HEIC"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Work Experience</h3>
+              <h4>Student Intern</h4>
+              <p>Modelon Inc. </p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.E Electronics and Communication Engineering</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p style="font-size: 40;">
+              Highly motivated and adaptable individual with a passion for learning new technologies and a track record of quickly
+              mastering complex concepts. Possesses strong interpersonal skills and a proven ability to collaborate effectively within
+              teams to solve problems and achieve common goals. Committed to contributing to a dynamic and innovative
+              organization and eager to learn from experienced professionals in the field.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#software-experience'"
+      />
+    </section>
+    <section id="software-experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Software-Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Programming Languages</h2>
+            <div class="article-container">
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  
+                  <li><h3>Python</h3></li>
+                  <p>&nbsp</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                 <li><h3>Java</h3></li> 
+                  <p>&nbsp</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                 <li> <h3>JavaScript</h3></li>
+                  <!-- <p>Intermediate</p> -->
+                  <p>&nbsp</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  <li><h3>TypeScript</h3></li>
+                  <!-- <p>Basic</p> -->
+                  <p>&nbsp</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  <li><h3>Rust</h3></li>
+                  <!-- <p>Basic</p> -->
+                  <p>&nbsp</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  <li><h3>C</h3></li>
+                  <!-- <p>Intermediate</p> -->
+                  <p>&nbsp</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  <li><h3>SQL</h3></li>
+                  <!-- <p>Intermediate</p> -->
+                  <p>&nbsp</p>
+                </div>
+              </article>
+            </div>
+            
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Tools</h2>
+            <div class="article-container">
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  <li><h3>Eclipse</h3></li> 
+                  <p>&nbsp;</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  <li><h3>VS Code</h3></li>
+                  <!-- <p>Experienced</p> -->
+                  <p>&nbsp;</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                 <li> <h3>PyCharm</h3></li>
+                  <!-- <p>Intermediate</p> -->
+                  <p>&nbsp;</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  <li><h3>IntelliJ</h3></li>
+                  <!-- <p>Basic</p> -->
+                  <p>&nbsp;</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  <li><h3>Android Studio</h3></li>
+                  <!-- <p>Git</p> -->
+                  <p>&nbsp;</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  <li><h3>Git</h3></li>
+                  <!-- <p>Intermediate</p> -->
+                  <p>&nbsp;</p>
+                </div>
+              </article>
+            </div>
+            
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Libraries</h2>
+            <div class="article-container">
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  <li><h3>OpenCV</h3></li>
+                  <!-- <p>Experienced</p> -->
+                  <p>&nbsp</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                 <li> <h3>MediaPipe</h3></li>
+                  <!-- <p>Experienced</p> -->
+                  <p>&nbsp</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                 <li> <h3>Numpy</h3></li>
+                  <!-- <p>Intermediate</p> -->
+                  <p>&nbsp</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  <li><h3>Sklearn</h3></li>
+                  <!-- <p>Basic</p> -->
+                  <p>&nbsp</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  <li><h3>Pandas</h3></li>
+                  <!-- <p>Basic</p> -->
+                  <p>&nbsp</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  <li><h3>Three.js</h3></li>
+                  <!-- <p>Intermediate</p> -->
+                  <p>&nbsp</p>
+                </div>
+              </article>
+            </div>
+            
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frameworks</h2>
+            <div class="article-container">
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                <li>  <h3>React</h3></li>
+                  <!-- <p>Experienced</p> -->
+                  <p>&nbsp</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  <li><h3>Next.js</h3></li>
+                  <!-- <p>Experienced</p> -->
+                  <p>&nbsp</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  <li><h3>Flask</h3></li>
+                  <!-- <p>Intermediate</p> -->
+                  <p>&nbsp</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  <li><h3>Express.js</h3></li>
+                  <!-- <p>Basic</p> -->
+                  <p>&nbsp</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  <li><h3>Selenium</h3></li>
+                  <!-- <p>Basic</p> -->
+                  <p>&nbsp</p>
+                </div>
+              </article>
+            </div>
+            
+          </div>
+          
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#core-experience'"
+      />
+    </section>
+    <section id="core-experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Core-Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Programming Languages</h2>
+            <div class="article-container">
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  
+                  <li><h3>C</h3></li>
+                  <p>&nbsp</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                 <li><h3>C++</h3></li> 
+                  <p>&nbsp</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                 <li> <h3>Python</h3></li>
+                  <!-- <p>Intermediate</p> -->
+                  <p>&nbsp</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  <li><h3>Golang</h3></li>
+                  <!-- <p>Basic</p> -->
+                  <p>&nbsp</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  <li><h3>Bash Scripting</h3></li>
+                  <!-- <p>Basic</p> -->
+                  <p>&nbsp</p>
+                </div>
+              </article>
+             
+            </div>
+            
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Signal Processing</h2>
+            <div class="article-container">
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  <li><h3>Digital Signal Processing</h3></li> 
+                  <p>&nbsp;</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  <li><h3>Algorithm Implementation</h3></li>
+                  <!-- <p>Experienced</p> -->
+                  <p>&nbsp;</p>
+                </div>
+              </article>
+            </div>
+            
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Microcontroller and Embedded Systems</h2>
+            <div class="article-container">
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  <li><h3>Embedded Programming</h3></li>
+                  <!-- <p>Experienced</p> -->
+                  <p>&nbsp</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                 <li> <h3>Embedded Systems Development</h3></li>
+                  <!-- <p>Experienced</p> -->
+                  <p>&nbsp</p>
+                </div>
+              </article>
+            </div>
+            
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Tools and Environments</h2>
+            <div class="article-container">
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                <li>  <h3>Git</h3></li>
+                  <!-- <p>Experienced</p> -->
+                  <p>&nbsp</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  <li><h3>Matlab</h3></li>
+                  <!-- <p>Experienced</p> -->
+                  <p>&nbsp</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  <li><h3>LTspice</h3></li>
+                  <!-- <p>Intermediate</p> -->
+                  <p>&nbsp</p>
+                </div>
+              </article>
+              <article>
+                <!-- <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                /> -->
+                <div>
+                  <li><h3>Keil IDE</h3></li>
+                  <!-- <p>Basic</p> -->
+                  <p>&nbsp</p>
+                </div>
+              </article>
+            </div>
+          </div>
+         
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Simple Chatbot</h2>
+            <p>Chatbot using NLP and Deep Learning</p>
+          </br>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Simple-chatbot'"
+              >
+                Github
+              </button>
+              <!-- <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button> -->
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Notes-App</h2>
+            <p> Notes taking app using React Native</p>
+          </br>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Notes-app'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Legal Document Management System</h2>
+            <p> Full stack website that allows users to create, store, and manage legal documents.</p>
+          </br>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Legal-Document-Management-System'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Restaurant Review Analysis</h2>
+            <p>NLP model to Predict the sentiment of a Restaurant review.</p>
+          </br>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Restaurant_review_sentiment_analysis'"
+              >
+                Github
+              </button>
+              <!-- <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button> -->
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Her-Instinct</h2>
+            <p> A mental health website that offers online resources and support for Women struggling with mental health
+              issues</p>
+          </br>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/her-instimct-2.0'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Smart Energy Forecast Dashboard</h2>
+            <p> Simple Weather Dashboard to Forecast Weather Details and Predict PV Power, Wind Power, Tidal Power Outputs using
+              Machine Learning and Simulations</p>
+          </br>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Smart-weather-dashboard'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Idea NFT</h2>
+            <p>A Decentralized app using Solana Blockchain to store and Mint your IP as a NFT for Patent or Futurekeeping..</p>
+          </br>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Simple-chatbot/HIS-hackathon'"
+              >
+                Github
+              </button>
+              <!-- <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button> -->
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">HX Visualizer WebApp</h2>
+            <p> A web application for visualizing Heat Exchanger (HX) systems.Built as part of Internship</p>
+          </br>
+            <div class="btn-container">
+              <!-- <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Notes-app'"
+              >
+                Github
+              </button> -->
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Weather and Energy Predictor CLI</h2>
+            <p>A command-line interface (CLI) application for weather information retrieval and energy prediction using
+              Python</p>
+          </br>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Weather-Energy-Prediction-CLI-'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Account Knocking Script</h2>
+            <p>An automated testing tool that uses Selenium to check whether an account exists on popular websites such as Quora, Spotify, eBay, ESPN, and Pinterest. </p>
+          </br>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/chanleeip/Account_Knocking'"
+              >
+                Github
+              </button>
+              <!-- <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button> -->
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Phishing Detection Algorithm</h2>
+            <p> Python script  designed to detect phishing attempts in emails. It uses various checks and scores to determine the likelihood of an email being a phishing attempt.
+            </p>
+          </br>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/chanleeip/Phising_Detection_Algorithm'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Car Plate Number Finder</h2>
+            <p> A Script to detect car plate numbers using Matlab</p>
+          </br>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/chanleeip/CarPlateNumberFinder-Matlab'"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          
+           
+        </div>
+      </div>
+      
+      
+      
+      
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:nithinnmanickam@gmail.com">nithinnmanickam@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:nithinnmanickam.g2021eceb@sece.ac.in">nithinnmanickam.g2021eceb@sece.ac.in</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/chanleeip">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p>9344603344</p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#software-experience">Software-Skills</a></li>
+            <li><a href="#core-experience">Core-Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Nithinn Manickam. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
